@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 48,
     paddingHorizontal: 32,
+    backgroundColor: `${COLORS.WHITE}`,
   },
   logo: {
     width: "100%",
