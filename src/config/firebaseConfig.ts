@@ -1,16 +1,18 @@
-import { initializeApp, getApps, getApp } from "firebase/app"
-import { getAuth } from 'firebase/auth'
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import Constants from "expo-constants";
 
-
-export const firebaseConfig = {
-    apiKey: "AIzaSyC4BiPpJPTT0U7KebPtKV25BDJd-a27y3c",
-    authDomain: "stacked-messenger-dev.firebaseapp.com",
-    projectId: "stacked-messenger-dev",
-    storageBucket: "stacked-messenger-dev.appspot.com",
-    messagingSenderId: "95270505636",
-    appId: "1:95270505636:web:9fbb1e6dd4af1c31112a31",
-    measurementId: "G-6PYHW0E2ZE"
+const firebaseConfig = {
+  apiKey: "AIzaSyC0dicTwDMLCE8NDgDWY9b1CT2ge1wth9s",
+  authDomain: "chatapp-df3f2.firebaseapp.com",
+  projectId: "chatapp-df3f2",
+  storageBucket: "chatapp-df3f2.appspot.com",
+  messagingSenderId: "437860617401",
+  appId: "1:437860617401:web:9f42477d2e16abd9639f68",
+  measurementId: "G-3PHQRDX3S9",
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export const database = getFirestore();

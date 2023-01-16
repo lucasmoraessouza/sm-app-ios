@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import * as SplashScreen from "expo-splash-screen";
-import LoginScreen from "./src/modules/screens/LoginScreen";
+import LoginScreen from "./src/modules/screens/Login";
 import {
   useFonts,
   Inter_400Regular,

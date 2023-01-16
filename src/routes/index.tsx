@@ -1,11 +1,5 @@
-import { NavigationContainer } from "@react-navigation/native";
-
-import OnBoardingRoutes from "../modules/routes/index";
+import { RootNavigator } from "../modules/routes";
 
 export default function Routes() {
-  return (
-    <NavigationContainer>
-      <OnBoardingRoutes />
-    </NavigationContainer>
-  );
+  return <RootNavigator />;
 }

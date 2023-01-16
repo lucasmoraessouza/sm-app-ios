@@ -22,7 +22,8 @@ export default function LoginScreen() {
   function handleSubmit() {
     auth
       .login(email, password)
-      .catch(() => alert("You have entered an invalid username or password"));
+      .then(() => console.log("Login success"))
+      .catch((err) => alert(`Login Error, ${err.message}`));
   }
 
   return (
