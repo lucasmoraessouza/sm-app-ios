@@ -11,7 +11,7 @@ import { styles } from "./styles";
 import { COLORS } from "../../theme/index";
 
 interface InputProps extends TextInputProps {
-  iconName: string;
+  iconName?: string;
   onEyePress?: () => void;
   isPassword?: boolean;
 }

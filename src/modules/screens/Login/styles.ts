@@ -17,7 +17,6 @@ export const styles = StyleSheet.create({
     height: "30%",
   },
   title: {
-    fontFamily: `${FONTS.BOLD}`,
     color: `${COLORS.BLACK}`,
     fontSize: 32,
     alignSelf: "flex-start",
@@ -29,7 +28,6 @@ export const styles = StyleSheet.create({
     marginHorizontal: 0,
   },
   forgotPasswordLabel: {
-    fontFamily: `${FONTS.BOLD}`,
     color: `${COLORS.BLACK}`,
     fontSize: 14,
   },
@@ -40,7 +38,6 @@ export const styles = StyleSheet.create({
     height: 60,
     marginBottom: 12,
     fontSize: 16,
-    fontFamily: `${FONTS.REGULAR}`,
     color: `${COLORS.BLACK}`,
   },
 });

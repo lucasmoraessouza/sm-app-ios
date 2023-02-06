@@ -7,6 +7,7 @@ export default {
     version: "1.0.0",
     assetBundlePatterns: ["**/*"],
   },
+  assets: ["./assets/fonts"],
   extra: {
     apiKey: process.env.API_KEY,
     authDomain: process.env.AUTH_DOMAIN,
